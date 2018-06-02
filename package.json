@@ -1,0 +1,28 @@
+{
+  "name": "smart-node-cluster-multicore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frsab/smart-node-cluster-multicore.git"
+  },
+  "keywords": [
+    "node",
+    "cluster",
+    "multicore",
+    "machie",
+    "algorithm",
+    "research",
+    "top"
+  ],
+  "author": "Saber FRAJ <saber.fraj@yahoo.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frsab/smart-node-cluster-multicore/issues"
+  },
+  "homepage": "https://github.com/frsab/smart-node-cluster-multicore#readme"
+}
