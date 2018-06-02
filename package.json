@@ -14,12 +14,12 @@
     "node",
     "cluster",
     "multicore",
-    "machie",
+    "machiene",
     "algorithm",
     "research",
     "top"
   ],
-  "author": "Saber FRAJ <saber.fraj@yahoo.fr>",
+  "author": "Saber FRAJ <saber.fraj@yahoo.fr> (https://github.com/frsab)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/frsab/smart-node-cluster-multicore/issues"
