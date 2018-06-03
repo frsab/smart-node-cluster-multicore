@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/frsab/smart-node-cluster-multicore/issues"
   },
-  "homepage": "https://github.com/frsab/smart-node-cluster-multicore#readme"
+  "homepage": "https://github.com/frsab/smart-node-cluster-multicore#readme",
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
 }
