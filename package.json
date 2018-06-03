@@ -14,7 +14,10 @@
     "node",
     "cluster",
     "multicore",
-    "machiene",
+    "machine",
+    "ip",
+    "domaine.tld",
+    "dns",
     "algorithm",
     "research",
     "top"
