@@ -2,13 +2,11 @@ exports.printMsg = function() {
   console.log("This is a message from the demo package");
 }
 
-exports.runLocal = function(f:function) {
+exports.runLocal = function() {
 	const cluster = require('cluster');
 	const http = require('http');
 	const numCPUs = require('os').cpus().length;
-	if(f){
-		f();
-	}
+
 	if (cluster.isMaster) {
 	  console.log(`Master ${process.pid} is running`);
 
@@ -24,9 +22,10 @@ exports.runLocal = function(f:function) {
 	} else {
 	  // Workers can share any TCP connection
 	  // In this case it is an HTTP server
-	  http.createServer((req, res) => {
+	  http.createServer(
+	  	(req, res) => {
 	    res.writeHead(200);
-	    res.end('hello world\n');
+	    res.end('hello world ${process.pid}\n');
 	  }).listen(8000);
 
 	  console.log(`Worker ${process.pid} started`);
