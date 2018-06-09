@@ -25,7 +25,7 @@ exports.runLocal = function() {
 	  http.createServer(
 	  	(req, res) => {
 	    res.writeHead(200);
-	    res.end('hello world ${process.pid}\n');
+	    res.end(`hello world ${process.pid}\n`);
 	  }).listen(8000);
 
 	  console.log(`Worker ${process.pid} started`);
